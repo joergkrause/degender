@@ -1,0 +1,178 @@
+/* images converted to base64 courtesy of: http://webcodertools.com/imagetobase64converter/Create
+   *props* to Chrome for not providing a way to reference the current extensions resources from CSS.
+   Hard coding the ID does not work because the ID is different when packaged. Props Chrome, Props!!! */
+
+div.fl-button
+{
+    /* general icon in text input */
+  position: absolute !important;
+  background: url(../images/Fairlanguage-icon-40x40-notinfocus.png) transparent no-repeat top left !important;
+  width: 40px !important;
+  height: 40px !important;
+  padding: 0px !important;
+  margin: 10px !important;
+  top: 0px;
+  left: 0px;
+  z-index: 999999998 !important;
+}
+
+div.fl-button.fl-focus, div.fl-button.fl-hover, div.fl-button:hover
+{ /* icon when text input is in focus */
+  background-image: url(../images/Fairlanguage-icon-40x40-focus.png) !important;
+}
+
+div.fl-button.fl-done
+{
+  /* icon when analysis was done */
+  background-image: url(../images/Fairlanguage-icon-40x40-active.png) !important;
+          animation: rotating-function 1.25s linear infinite;
+from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+/* FL error styles */
+
+.hiddenSpellError
+{
+   border-bottom: 2px solid red !important;
+   cursor: pointer;
+}
+
+.hiddenGrammarError
+{
+   border-bottom: 2px solid green !important;
+   cursor: pointer;
+}
+
+.hiddenSuggestion
+{
+   border-bottom: 2px solid #AB7CEB !important;
+   cursor: pointer;
+}
+
+/* Menu styles derived from:
+ * jquery.spellchecker.js - a simple jQuery Spell Checker
+ * Copyright (c) 2008 Richard Willis
+ * MIT license  : http://www.opensource.org/licenses/mit-license.php
+ * Project      : http://jquery-spellchecker.googlecode.com
+ */
+
+div.suggestmenu
+{
+   background: #fff;
+   position: absolute;
+   display: block;
+   z-index: 999999999;
+   overflow: none;
+   margin-top: 1px;
+   margin-left: 5px;
+   text-align: left;
+   font-family: "Montserrat", "Lucida Grande", "Arial";
+   font-size: 16px;
+   cursor: default;
+}
+
+div.suggestmenu strong
+{
+   background: #F4F4F4;
+   font-weight: 600;
+   font-size: 14px;
+   text-shadow: 1px 1px #ccc;
+   text-align: center;
+   padding:10px 10px 10px 10px;
+   display:block;
+   box-shadow: 5px 5px 5px #ccc;
+   /* border-top: 1px solid #ccc;
+   border-left: 1px solid #ccc;
+   border-right: 1px solid #ccc;
+   border-bottom: 1px solid #ccc; */
+   border: 1px solid #ccc;
+   color: #333333;
+   cursor: default;
+}
+
+div.suggestmenu em
+{
+   text-align:center;
+   padding:3px 6px 3px 6px;
+   display:block;
+   border-top:1px solid #ccc;
+   border-left:1px solid #ccc;
+   cursor: default;
+}
+
+div.suggestmenu div
+{
+   background: #fff;
+   border-left:1px solid #bbb;
+   border-right:1px solid #bbb;
+   box-shadow: 5px 5px 5px #ccc;
+   padding:10px 25px 10px 25px;
+   display:block;
+   margin:0px;
+   text-decoration:none;
+   color:#333;
+   outline:none
+   cursor: default;
+}
+
+div.suggestmenu div.first
+{
+   border-top:1px solid #ccc
+}
+
+.spell_sep_bottom
+{
+   border-bottom: 1px solid #ccc;
+}
+
+.spell_sep_top
+{
+   /* border-top: 1px solid #ccc; */
+   border-bottom: 1px solid #ccc;
+   text-align: right;
+   font-size: 12px;
+}
+
+div.suggestmenu div:hover
+{
+   color:#000;
+   /* background: #D5C7EA; */
+   background: #F4F4F4;
+}
+
+div.suggestmenu .foot
+{
+   border-top:1px solid #ddd;
+   background:#fff
+}
+
+div.suggestmenu .foot div
+{
+   outline:none
+}
+
+/* make it so Fairlanguage Exteniosn can work with TinyMCE */
+div #FL_Content *
+{
+   white-space: pre-wrap !important;
+   overflow: visible !important;
+}
+
+/* make it so some font elements are inherited */
+div #FL_Content div, div #FL_Content p, div #FL_Content span
+{
+   font-size: inherit !important;
+   font-family: inherit !important;
+   font-weight: inherit !important;
+   line-height: inherit !important;
+}
+
+span.mceItemHidden, span.hiddenSuggestion, span.hiddenSpellError, span.hiddenGrammarError
+{
+   float: none;
+}

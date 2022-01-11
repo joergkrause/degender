@@ -1,0 +1,14 @@
+GegenGender ist dein Autokorrektur Tool, das dir hilft, sauberes Deutsch auf Seiten zu lesen, die sogenannte gendergerechte Sprache zu verwenden.
+
+ 
+
+Ja, zugegeben, es ist nicht immer ganz einfach. Bis jetzt. Lass dir von unserer Browser Extension helfen, ganz einfach per Knopfdruck. Wenn du in deinem Browser einen Text schreibst wie z.B. einen Kommentar oder eine E-Mail, hast du die Möglichkeit deinen Text durch die Extension auf Fairness checken zu lassen. 
+Klicke dazu einfach in dem jeweiligen Textfeld auf unser Icon, und schon geht es los. Wenn wir etwas finden, kannst ud die Vorschläge annehmen, oder dir natürlich auch selbst Gedanken machen, was für dich an dieser Stelle fair ist. 
+
+Bitte beachte, dass unsere Extension aktuell noch ein Prototype ist. Heißt es können hier und da noch Fehler auftreten, der Wortschatz ist noch klein und wird ständig ergänzt und evtl. macht es dir auf der ein oder anderen Seite Schwierigkeiten. Des Weiteren übernehmen wir keine Haftung für entstehende Schäden und es gibt auch keinen Anspruch auf die korrekte Funktion der Extension. 
+
+Falls du plötzlich irgendwo Probleme hast, versuch als erste einmal die Extension zu deaktivieren (oben rechts auf das Fairlanguage Icon klicken, dann auf "Deaktivieren"). Und sag uns gerne Bescheid ( iwant@fairlanguage.com ), dann schauen wir, was da los ist. 
+
+Wichtig zu wissen: Um dir Feedback zu deinen Texten zu geben, müssen wir sie an einen Server schicken und dort analysieren. Das passiert jeweils nur, wenn du die Extension aktiv selbst durch Klick auf das Icon startest. Mit der Nutzung der Extension stimmst du daher unserer Datenschutzbestimmung zu. Wir fragen dich für jede neue Seite, ob du zustimmst, so dass du uns wirklich nur das schickst, was du willst.
+
+Falls du Fragen oder Feedback hast, gerne her damit!

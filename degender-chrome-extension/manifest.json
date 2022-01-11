@@ -1,0 +1,30 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "scripts/jquery-1.8.3.js", "scripts/fl.core.js", "scripts/jquery.fl.js", "scripts/jquery.fl.proofreader.js", "scripts/jquery.fl.div.js", "scripts/jquery.fl.iframe.js", "scripts/widget.js", "scripts/autoproof.js", "scripts/fl-chrome.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Fairlanguage ist dein Autokorrektur Tool, das dir hilft, eine faire, gendergerechte Sprache zu verwenden.",
+   "icons": {
+      "128": "images/128x128.png",
+      "16": "images/16x16.png",
+      "48": "images/48x48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnGYVzOzTThVqoqlDqXHPiYNBrM6rk/3QB5E+V021cURW9361qehnVHT7QwIRPPBduM1KHzSqyAqbkaWjhfk8kI9qkdBe/klKz5zD8X1Gnk42Q7aAy5njmZE64ucy177GmrWBgy4J2/PGwf4zR3/4r9YW0VgemqDqPtBjVZiczykfvUmmzoFxFG8DvsmkdVzTS5u04ubiqZobaj5ZYiPI5hZR/izg1WJ5hmpGz0iqTqBmhgZSIodBH+DC1bTvpLiyVrFA+EewB6hCBnuGVWKm8rIOyF4jfvtcA1aqYRDrBOwPGmRlmWWgnhscjCyjeUhbNJJgQXRbItvuvm/L0HlrGQIDAQAB",
+   "manifest_version": 2,
+   "name": "Gegen Gender",
+   "options_page": "options/options.html",
+   "page_action": {
+      "default_icon": "images/16x16.png",
+      "default_title": "Gegen Gender - Deutsche Sprache auf Knopfdruck",
+      "popup": "action/disable.html"
+   },
+   "permissions": [ "tabs", "storage", "https://fairlanguage3.dev-star.de/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.5.3",
+   "web_accessible_resources": [ "css/fl.css", "images/*.png" ]
+}
