@@ -8,7 +8,7 @@
       "matches": [ "http://*/*", "https://*/*" ],
       "run_at": "document_end"
    } ],
-   "description": "Fairlanguage ist dein Autokorrektur Tool, das dir hilft, eine faire, gendergerechte Sprache zu verwenden.",
+   "description": "Degender ist ein Autokorrektur-Werkzeug, sogenannte gendergerechte Sprache in korrektes Deutsch übersetzt.",
    "icons": {
       "128": "images/128x128.png",
       "16": "images/16x16.png",
@@ -16,14 +16,14 @@
    },
    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnGYVzOzTThVqoqlDqXHPiYNBrM6rk/3QB5E+V021cURW9361qehnVHT7QwIRPPBduM1KHzSqyAqbkaWjhfk8kI9qkdBe/klKz5zD8X1Gnk42Q7aAy5njmZE64ucy177GmrWBgy4J2/PGwf4zR3/4r9YW0VgemqDqPtBjVZiczykfvUmmzoFxFG8DvsmkdVzTS5u04ubiqZobaj5ZYiPI5hZR/izg1WJ5hmpGz0iqTqBmhgZSIodBH+DC1bTvpLiyVrFA+EewB6hCBnuGVWKm8rIOyF4jfvtcA1aqYRDrBOwPGmRlmWWgnhscjCyjeUhbNJJgQXRbItvuvm/L0HlrGQIDAQAB",
    "manifest_version": 2,
-   "name": "Gegen Gender",
+   "name": "DeGender",
    "options_page": "options/options.html",
    "page_action": {
       "default_icon": "images/16x16.png",
-      "default_title": "Gegen Gender - Deutsche Sprache auf Knopfdruck",
+      "default_title": "DeGender - schöne deutsche Sprache auf Knopfdruck",
       "popup": "action/disable.html"
    },
-   "permissions": [ "tabs", "storage", "https://fairlanguage3.dev-star.de/*" ],
+   "permissions": [ "tabs", "storage", "https://gender-wahn.de/*" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
    "version": "0.5.3",
    "web_accessible_resources": [ "css/fl.css", "images/*.png" ]

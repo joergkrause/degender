@@ -2,12 +2,13 @@ Gegen-Genderwahn Browser Extension
 
 ==========
 
-### Chrome extensions for Gegengender to check text for fair language
-
+### Chrome extensions for gender-wahn project
 
 ### Contact
-iwant@gegengender.com
-Gegengender - Jörg Krause, Hafersteig 113, 12683 Berlin
+
+info@gender-wahn.de
+
+Gender Wahn - Jörg Krause, Hafersteig 113, 12683 Berlin
 
 ### License
 

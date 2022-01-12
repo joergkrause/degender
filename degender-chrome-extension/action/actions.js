@@ -51,9 +51,9 @@ function __disable() {
 		chrome.extension.sendRequest({ command: 'refreshTabs' });
 	});
 }
-// changed adress to Fairlanguage.com
+
 function home() {
-	goTo('https://fairlanguage.com');
+	goTo('https://gender-wahn.de');
 }
 
 function options() {
